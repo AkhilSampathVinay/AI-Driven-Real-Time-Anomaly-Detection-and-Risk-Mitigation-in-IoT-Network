@@ -33,3 +33,54 @@ SYN floods, DNS amplification, and behavioral anomalies.
 | Firewall Control | iptables / netsh / pfctl |
 
 ## 📁 Project Structure
+## ⚙️ Installation
+
+### Prerequisites
+- Python 3.8+
+- **Linux/macOS:** Run with `sudo` (required for raw packet capture)
+- **Windows:** Run as Administrator
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/iot-anomaly-detection.git
+cd iot-anomaly-detection
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the application
+```bash
+# Linux/macOS
+sudo python main.py
+
+# Windows (run terminal as Administrator)
+python main.py
+```
+
+## 🚀 How to Use
+1. Launch the app — it scans your local network automatically
+2. Double-click any device in the list to start packet capture
+3. Monitor live traffic in the GUI — threats are highlighted in red/orange
+4. Click **"Mitigate Threat"** when malicious packets are detected
+5. Choose to isolate, temporarily block, or auto-block the device
+6. Download the traffic graph or `.pcap` file for further analysis
+
+## 📸 Screenshots
+*(Add screenshots of your GUI here)*
+
+## 👨‍💻 Author
+**Ch. Akhil Sampath Vinay** (21P61A6209)  
+B.Tech CSE (Cyber Security), VBIT Hyderabad  
+Guide: Mrs. M. Jhansi Rani, Sr. Assistant Professor
+
+## 🙏 Acknowledgements
+- Mrs. M. Jhansi Rani (Internal Guide)
+- Mr. K. Ashok (Project Coordinator)
+- Dr. P. Sushma (Head of Department)
+- Vignana Bharathi Institute of Technology
+
+## 📄 License
+This project was submitted as a B.Tech Major Project at VBIT, Hyderabad (2024-25).
